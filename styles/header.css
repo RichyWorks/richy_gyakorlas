@@ -1,0 +1,37 @@
+.main-header {
+    background:#707070;
+    border: 10px solid #005272;
+    border-top: none;
+    margin-bottom: 10px;
+}
+
+.main-header .header-text {
+    background:green;
+}
+
+.main-header .header-text p {
+    text-align: center;
+    padding: 10px;
+}
+.main-header .header-title {
+    text-align: center;
+}
+
+.main-header .header-links {
+    display: flex;
+    padding: 10px;
+    background: darkgreen;
+}
+
+.main-header .header-links a {
+    display: block;
+    margin: auto;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-header .header-links a:hover {
+    text-decoration: underline;
+    color: pink;
+}
